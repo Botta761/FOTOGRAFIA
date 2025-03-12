@@ -76,7 +76,7 @@
     <section class="hero">
         <h1>Benvenuto nel mio portfolio fotografico</h1>
         <p>Immortalare momenti che durano per sempre.</p>
-        <img src="https://via.placeholder.com/800x400" alt="Esempio fotografia">
+        <img src="images/logo.png" alt="Logo Fotografico">
     </section>
     <section class="about">
         <h2>Chi sono</h2>
