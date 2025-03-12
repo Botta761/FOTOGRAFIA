@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Fotografico</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -11,81 +12,94 @@
             box-sizing: border-box;
         }
         body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #1e1e1e;
-            color: #f5f5f5;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
             text-align: center;
+            line-height: 1.6;
         }
         header {
-            background: #333;
-            padding: 20px;
-            font-size: 32px;
-            font-weight: 600;
-            letter-spacing: 2px;
+            background-color: #222;
+            padding: 30px;
+            font-size: 36px;
+            font-weight: 500;
+            color: #fff;
             text-transform: uppercase;
+            letter-spacing: 2px;
         }
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 15px;
-            padding: 50px;
-            max-width: 1000px;
-            margin: auto;
-        }
-        .gallery img {
-            width: 100%;
+        header img {
+            width: 150px;
             height: auto;
-            border-radius: 10px;
-            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
         }
-        .gallery img:hover {
-            transform: scale(1.05);
-            box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+        .hero {
+            background-color: #e1e1e1;
+            padding: 100px 20px;
+            margin-bottom: 50px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 600;
+            color: #333;
         }
         .about, .services, .contact {
-            max-width: 800px;
+            max-width: 900px;
             margin: 50px auto;
             padding: 20px;
             text-align: left;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        .about h2, .services h2, .contact h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #222;
+        }
+        .about p, .services p, .contact p {
             font-size: 18px;
-            line-height: 1.6;
+            color: #555;
         }
         .contact-info {
             margin-top: 20px;
-            font-size: 18px;
+            font-size: 16px;
+            color: #777;
         }
-        .contact-info p {
-            margin: 5px 0;
+        .contact-info a {
+            color: #555;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
         }
         footer {
-            background: #333;
+            background-color: #222;
             padding: 15px;
-            margin-top: 20px;
+            color: #fff;
             font-size: 14px;
+            text-align: center;
+            margin-top: 50px;
         }
     </style>
 </head>
 <body>
-    <header>Portfolio Fotografico</header>
-    <section class="gallery">
-        <img src="https://via.placeholder.com/300" alt="Foto 1">
-        <img src="https://via.placeholder.com/300" alt="Foto 2">
-        <img src="https://via.placeholder.com/300" alt="Foto 3">
-        <img src="https://via.placeholder.com/300" alt="Foto 4">
-        <img src="https://via.placeholder.com/300" alt="Foto 5">
-        <img src="https://via.placeholder.com/300" alt="Foto 6">
+    <header>
+        <img src="https://via.placeholder.com/150" alt="Logo"> Portfolio Fotografico
+    </header>
+    <section class="hero">
+        <h1>Benvenuto nel mio portfolio fotografico</h1>
+        <p>Immortalare momenti che durano per sempre.</p>
     </section>
     <section class="about">
         <h2>Chi sono</h2>
-        <p>Sono un fotografo appassionato di immortalare momenti unici e creare immagini emozionanti.</p>
+        <p>Sono un fotografo professionista con un'esperienza pluriennale, appassionato di catturare emozioni attraverso l'obiettivo. Il mio lavoro si concentra su ritratti, eventi speciali e fotografie creative.</p>
     </section>
     <section class="services">
         <h2>Servizi</h2>
-        <p>Offro servizi fotografici per eventi, ritratti, paesaggi e brand personali.</p>
+        <p>Offro servizi di fotografia per matrimoni, ritratti professionali, eventi aziendali e creativi, con uno stile elegante e sofisticato, progettato per soddisfare ogni esigenza.</p>
     </section>
     <section class="contact">
         <h2>Contattami</h2>
-        <p>Se desideri collaborare con me o hai domande sui miei servizi, contattami ai seguenti recapiti:</p>
+        <p>Se desideri maggiori informazioni o vuoi pianificare una sessione fotografica, non esitare a contattarmi.</p>
         <div class="contact-info">
             <p>Email: <a href="mailto:esempio@email.com">esempio@email.com</a></p>
             <p>Telefono: +39 123 456 7890</p>
@@ -97,3 +111,4 @@
     </footer>
 </body>
 </html>
+****
