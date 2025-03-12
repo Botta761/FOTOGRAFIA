@@ -42,7 +42,7 @@
             transform: scale(1.05);
             box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
         }
-        .about, .contact {
+        .about, .services, .contact {
             max-width: 800px;
             margin: 50px auto;
             padding: 20px;
@@ -50,27 +50,12 @@
             font-size: 18px;
             line-height: 1.6;
         }
-        .contact form {
-            display: flex;
-            flex-direction: column;
+        .contact-info {
+            margin-top: 20px;
+            font-size: 18px;
         }
-        .contact form input, .contact form textarea {
-            margin-bottom: 15px;
-            padding: 10px;
-            font-size: 16px;
-            border: none;
-            border-radius: 5px;
-            background-color: #333;
-            color: #f5f5f5;
-        }
-        .contact form input[type="submit"] {
-            background-color: #ff5722;
-            color: white;
-            cursor: pointer;
-            transition: background-color 0.3s ease-in-out;
-        }
-        .contact form input[type="submit"]:hover {
-            background-color: #e64a19;
+        .contact-info p {
+            margin: 5px 0;
         }
         footer {
             background: #333;
@@ -92,21 +77,20 @@
     </section>
     <section class="about">
         <h2>Chi sono</h2>
-        <p>Benvenuto nel mio portfolio fotografico. Sono un appassionato di fotografia e amo catturare momenti speciali.</p>
-        <p>Mi occupo di fotografia di paesaggi, ritratti e street photography. La mia missione è raccontare storie attraverso immagini, immortalando emozioni e dettagli unici.</p>
-        <p>Ho iniziato il mio viaggio nella fotografia diversi anni fa e nel tempo ho affinato la mia tecnica, esplorando nuove prospettive e migliorando il mio stile personale.</p>
-        <p>Amo viaggiare e scoprire nuove culture, il che mi permette di catturare immagini uniche che raccontano storie da ogni angolo del mondo.</p>
-        <p>Credo che la fotografia sia un potente strumento di comunicazione, capace di trasmettere emozioni e creare connessioni profonde tra le persone.</p>
+        <p>Sono un fotografo appassionato di immortalare momenti unici e creare immagini emozionanti.</p>
+    </section>
+    <section class="services">
+        <h2>Servizi</h2>
+        <p>Offro servizi fotografici per eventi, ritratti, paesaggi e brand personali.</p>
     </section>
     <section class="contact">
         <h2>Contattami</h2>
-        <p>Se desideri collaborare con me o semplicemente vuoi saperne di più sul mio lavoro, non esitare a contattarmi.</p>
-        <form>
-            <input type="text" placeholder="Il tuo nome" required>
-            <input type="email" placeholder="La tua email" required>
-            <textarea placeholder="Il tuo messaggio" rows="5" required></textarea>
-            <input type="submit" value="Invia">
-        </form>
+        <p>Se desideri collaborare con me o hai domande sui miei servizi, contattami ai seguenti recapiti:</p>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:esempio@email.com">esempio@email.com</a></p>
+            <p>Telefono: +39 123 456 7890</p>
+            <p>Instagram: <a href="https://instagram.com/esempio" target="_blank">@esempio</a></p>
+        </div>
     </section>
     <footer>
         &copy; 2025 Portfolio Fotografico - Tutti i diritti riservati
