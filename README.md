@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Fotografico</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         * {
@@ -11,13 +13,13 @@
         }
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #f9f9f9;
+            background-color: #f1e6d9; /* Beige */
             color: #333;
             text-align: center;
             line-height: 1.6;
         }
         header {
-            background-color: #222;
+            background-color: #a98f70; /* Beige scuro */
             padding: 30px;
             font-size: 36px;
             font-weight: 500;
@@ -30,7 +32,7 @@
             height: auto;
         }
         .hero {
-            background-color: #e1e1e1;
+            background-color: #e8d5b7; /* Beige chiaro */
             padding: 100px 20px;
             margin-bottom: 50px;
         }
@@ -70,7 +72,7 @@
             text-decoration: underline;
         }
         footer {
-            background-color: #222;
+            background-color: #a98f70; /* Beige scuro */
             padding: 15px;
             color: #fff;
             font-size: 14px;
@@ -88,6 +90,7 @@
         <p>Immortalare momenti che durano per sempre.</p>
     </section>
     <section class="about">
+        <img src="https://via.placeholder.com/150" alt="Logo" style="width: 100px; margin-bottom: 20px;">
         <h2>Chi sono</h2>
         <p>Sono un fotografo professionista con un'esperienza pluriennale, appassionato di catturare emozioni attraverso l'obiettivo. Il mio lavoro si concentra su ritratti, eventi speciali e fotografie creative.</p>
     </section>
@@ -109,4 +112,3 @@
     </footer>
 </body>
 </html>
-****
