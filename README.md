@@ -26,6 +26,12 @@
             font-weight: 700; /* Grassetto per il titolo */
             color: #333; /* Nero per il titolo */
         }
+        .hero img {
+            width: 80%; /* Imposta la larghezza dell'immagine */
+            height: auto;
+            margin-top: 30px; /* Spazio sopra l'immagine */
+            border-radius: 8px;
+        }
         .about, .services, .contact {
             max-width: 900px;
             margin: 50px auto;
@@ -70,6 +76,7 @@
     <section class="hero">
         <h1>Benvenuto nel mio portfolio fotografico</h1>
         <p>Immortalare momenti che durano per sempre.</p>
+        <img src="https://via.placeholder.com/800x400" alt="Esempio fotografia">
     </section>
     <section class="about">
         <h2>Chi sono</h2>
