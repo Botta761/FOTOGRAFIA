@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
@@ -26,10 +27,10 @@
         }
         .gallery {
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 15px;
             padding: 50px;
-            max-width: 800px;
+            max-width: 1000px;
             margin: auto;
         }
         .gallery img {
@@ -82,8 +83,29 @@
 </head>
 <body>
     <header>Portfolio Fotografico</header>
-    
+    <section class="gallery">
+        <img src="https://via.placeholder.com/300" alt="Foto 1">
+        <img src="https://via.placeholder.com/300" alt="Foto 2">
+        <img src="https://via.placeholder.com/300" alt="Foto 3">
+        <img src="https://via.placeholder.com/300" alt="Foto 4">
+    </section>
     <section class="about">
-        <h2>Chi Sono</h2>
-        <p>Sono un fotografo professionista specializzato in ritratti, paesaggi e fotografia artistica. Con anni di esperienza, il mio obiettivo è catturare l'essenza di ogni momento attraverso l'obiettivo della mia fotocamera.</p>
-        <p>Ho lavorato con numerosi clienti in tutto il mondo, offrendo servizi fotografici personalizzati per ogni esigenza. La mia passione
+        <h2>Chi sono</h2>
+        <p>Benvenuto nel mio portfolio fotografico. Sono un appassionato di fotografia e amo catturare momenti speciali.</p>
+    </section>
+    <section class="contact">
+        <h2>Contattami</h2>
+        <form>
+            <input type="text" placeholder="Il tuo nome" required>
+            <input type="email" placeholder="La tua email" required>
+            <textarea placeholder="Il tuo messaggio" rows="5" required></textarea>
+            <input type="submit" value="Invia">
+        </form>
+    </section>
+    <footer>
+        &copy; 2025 Portfolio Fotografico - Tutti i diritti riservati
+    </footer>
+</body>
+</html>
+
+
