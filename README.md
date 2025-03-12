@@ -13,12 +13,12 @@
         }
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #121212;
-            color: white;
+            background-color: #1e1e1e;
+            color: #f5f5f5;
             text-align: center;
         }
         header {
-            background: rgba(0, 0, 0, 0.8);
+            background: #333;
             padding: 20px;
             font-size: 32px;
             font-weight: 600;
@@ -27,10 +27,10 @@
         }
         .gallery {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: 1fr;
             gap: 15px;
             padding: 50px;
-            max-width: 1200px;
+            max-width: 800px;
             margin: auto;
         }
         .gallery img {
@@ -43,7 +43,7 @@
             transform: scale(1.05);
             box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
         }
-        .about {
+        .about, .contact {
             max-width: 800px;
             margin: 50px auto;
             padding: 20px;
@@ -51,8 +51,30 @@
             font-size: 18px;
             line-height: 1.6;
         }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact form input, .contact form textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: #f5f5f5;
+        }
+        .contact form input[type="submit"] {
+            background-color: #ff5722;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .contact form input[type="submit"]:hover {
+            background-color: #e64a19;
+        }
         footer {
-            background: rgba(0, 0, 0, 0.8);
+            background: #333;
             padding: 15px;
             margin-top: 20px;
             font-size: 14px;
@@ -65,17 +87,4 @@
     <section class="about">
         <h2>Chi Sono</h2>
         <p>Sono un fotografo professionista specializzato in ritratti, paesaggi e fotografia artistica. Con anni di esperienza, il mio obiettivo è catturare l'essenza di ogni momento attraverso l'obiettivo della mia fotocamera.</p>
-    </section>
-    
-    <div class="gallery">
-        <img src="foto1.jpg" alt="Foto 1">
-        <img src="foto2.jpg" alt="Foto 2">
-        <img src="foto3.jpg" alt="Foto 3">
-        <img src="foto4.jpg" alt="Foto 4">
-        <img src="foto5.jpg" alt="Foto 5">
-        <img src="foto6.jpg" alt="Foto 6">
-    </div>
-    
-    <footer>&copy; 2025 Nome Fotografo - Tutti i diritti riservati</footer>
-</body>
-</html>
+        <p>Ho lavorato con numerosi clienti in tutto il mondo, offrendo servizi fotografici personalizzati per ogni esigenza. La mia passione
