@@ -16,15 +16,6 @@
             text-align: center;
             line-height: 1.6;
         }
-        header {
-            background-color: #000; /* Nero */
-            padding: 30px;
-            font-size: 36px;
-            font-weight: 700; /* Grassetto per il titolo */
-            color: #fff; /* Testo bianco per contrasto */
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
         .hero {
             background-color: #e8d5b7; /* Beige chiaro */
             padding: 100px 20px;
@@ -76,9 +67,6 @@
     </style>
 </head>
 <body>
-    <header>
-        Portfolio Fotografico
-    </header>
     <section class="hero">
         <h1>Benvenuto nel mio portfolio fotografico</h1>
         <p>Immortalare momenti che durano per sempre.</p>
